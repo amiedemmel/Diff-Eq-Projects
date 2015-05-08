@@ -1,0 +1,15 @@
+RK_order4
+Enter a : -2
+b : 0
+step-size : -.01
+inital x value : 3
+
+nerror =
+
+  5.2384e-011
+
+xlabel('t');
+uiopen('C:\Users\ald130130\Documents\MATLAB\RK_order4.m',1)
+ylabel('x(t)');
+legend('calculated','true');
+diary off

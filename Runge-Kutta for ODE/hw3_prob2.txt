@@ -1,0 +1,42 @@
+%for lambda values 5, -5, -10
+RK2
+step-size : .01
+
+lamb =
+
+     5
+
+
+nerror =
+
+   73.4982
+
+
+lamb =
+
+    -5
+
+
+nerror =
+
+  4.1367e-008
+
+
+lamb =
+
+   -10
+
+
+nerror =
+
+  1.7462e-007
+
+
+lamb =
+
+  -100
+
+
+nerror =
+
+  2.7030e-005

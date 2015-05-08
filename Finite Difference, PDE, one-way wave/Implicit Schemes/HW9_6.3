@@ -1,0 +1,68 @@
+%First we will run the code with lambda=1 and specify various h values
+implicit
+Enter h: 1/10
+h : 1/20
+h : 1/40
+h : 0
+Lerr
+
+Lerr =
+
+   0.003954402623075   0.001196864610655   0.000447435955590
+
+merr
+
+merr =
+
+   0.133660513836218   0.098198616314479   0.086813491031920
+
+Lerr(1:2)./Lerr(2:3)
+
+ans =
+
+   3.303968208158554   2.674940615977602
+
+merr(1:2)./merr(2:3)
+
+ans =
+
+   1.361124207780825   1.131144654445164
+
+xlabel('x');
+ylabel('calculated sol')
+legend('h=1/10','h=1/20','h=1/40','true solution')
+title('Constant lambda = 1')
+
+%Now we have a constant mu, mu=10
+implicit
+Enter h: 1/10
+h : 1/20
+h : 1/40
+h : 0
+Lerr
+
+Lerr =
+
+   0.003954402623075   0.000138992372530   0.000007841259848
+
+merr
+
+merr =
+
+   0.133660513836218   0.018305816027927   0.003783566257968
+
+Lerr(1:2)./Lerr(2:3)
+
+ans =
+
+  28.450500923963755  17.725770505201982
+
+merr(1:2)./merr(2:3)
+
+ans =
+
+   7.301532673130128   4.838243810155471
+xlabel('x');
+ylabel('calculated sol')
+legend('h=1/10','h=1/20','h=1/40','true solution')
+title('Constant mu = 10')

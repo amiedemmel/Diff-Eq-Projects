@@ -1,0 +1,11 @@
+order_5
+Enter h value : .01
+plot(t1,y,t1,x)
+xlabel('t')
+ylabel('calculated solution values')
+legend('centered around xn','centered around x0')
+plot(diff)
+xlabel('step number')
+ylabel('difference of calculated values')
+
+diary off

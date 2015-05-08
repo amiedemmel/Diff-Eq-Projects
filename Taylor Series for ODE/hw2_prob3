@@ -1,0 +1,61 @@
+order_4
+enter h value : .1
+
+ans =
+
+   0.882081706125970
+
+
+error =
+
+     3.154259704540863e-07
+
+
+ans =
+
+   1.466666666666667
+
+
+errorx =
+
+   0.584585275966667
+
+call = error;
+callx = errorx;
+order_4
+enter h value : .05
+
+ans =
+
+   0.882081419707371
+
+
+error =
+
+     2.900737050559599e-08
+
+
+ans =
+
+   1.466666666666667
+
+
+errorx =
+
+   0.584585275966667
+
+call2 = error;
+call2x = errorx;
+ratio = call/call2
+
+ratio =
+
+  10.873993917967695
+
+ratio = callx/call2x
+
+ratio =
+
+     1
+
+diary off

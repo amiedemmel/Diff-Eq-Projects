@@ -1,0 +1,64 @@
+%for lambda values 5, -5, -10
+RK2
+step-size : .01
+
+lamb =
+
+     5
+
+
+nerror =
+
+   73.4982
+
+
+lamb =
+
+    -5
+
+
+nerror =
+
+  4.1367e-008
+
+
+lamb =
+
+   -10
+
+
+nerror =
+
+  1.7462e-007
+
+
+lamb =
+
+  -100
+
+
+nerror =
+
+  2.7030e-005
+
+xlabel('t');
+ylabel('x(t)');
+legend('calculated','true');
+diary off
+RK2
+step-size : .01
+lamda value(s) : [-10 -5 5]
+
+lamb =
+
+   -10    -5     5
+
+{??? Error using ==> mtimes
+Inner matrix dimensions must agree.
+
+Error in ==> <a href="matlab: opentoline('C:\Users\ald130130\Documents\MATLAB\func2.m',2,0)">func2 at 2</a>
+f=l*x+cos(t)-l*sin(t);
+Error in ==> <a href="matlab: opentoline('C:\Users\ald130130\Documents\MATLAB\RK2.m',34,0)">RK2 at 34</a>
+        F2 = h*func2(t+.5*h,x(i)+.5*F1,lamb);
+} 
+diary off

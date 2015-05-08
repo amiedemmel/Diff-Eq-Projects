@@ -1,0 +1,7 @@
+run
+Enter number of sub-intervals: 2
+Enter number of sub-intervals: 5
+Enter number of sub-intervals: 10
+Enter number of sub-intervals: 0
+Enter legend: ['n= 2';'n= 5';'n=10']
+diary off
